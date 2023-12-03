@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 
 const voterSchema = new mongoose.Schema({
   user: {
-    type: String, // Store the IP address or any identifier for the user
+    type: String, 
     required: true,
     unique: true,
   },
